@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get" class="form-example">
+        <div class="form">
+          <label for="name">Voornaam: </label> <br>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form">
+          <label for="name">Achternaam: </label> <br>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form">
+            <label for="gender">Geslacht</label> <br>
+            <input type="radio" name="gender" value="male"> Man <br>
+            <input type="radio" name="gender" value="female"> Vrouw
+        </div>
+        <div class="form">
+            <label for="street">Straat</label> <br>
+            <input type="text" name="street">
+        </div>
+        <div class="form">
+            <label for="zipcode">Postcode</label> <br>
+            <input type="text" name="zipcode">
+            <div class="form">
+                <label for="country">Land</label> <br>
+                <input type="text" name="country">
+                <div class="form">
+                    <label for="BSN">BSN nummer</label> <br>
+                    <input type="text" maxlength="9" id="BSN">
+                </div>
+            </div>
+        </div>
+        <label for="departure"> Datum van vertrek</label> <br>
+        <input type="date" name="departure" min="2022-10-01">
+        <div class="form ">
+    <label for="departure"> Datum van terugkomst</label> <br> 
+    <input type="date" name="departure" min="2022-10-02">
+        </div>
+        <div class="form">
+            <label for="travel">Aantal Reisgenoten</label> <br>
+            <input type="text" max="4" min="0" id="travel">
+        </div>
+        <div class="form">
+        <input type="Submit" value="Boek Nu">
+        </div>
+         <br> <label for="email">E-mail</label> <br>
+<input type="email" id="email">
+<div>
+    <label for="pass">Wachtwoord</label> <br>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+<input type="submit" value="Log in">
+      </form>
+</body>
+</html>
