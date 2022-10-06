@@ -1,0 +1,25 @@
+.item1{
+  width: 200px;
+  height: 200px;
+  background-color:blue
+}
+.item2{
+  width: 200px;
+  height: 200px;
+  background-color:rgb(0, 0, 0)
+}
+.item3{
+  width: 200px;
+  height: 200px;
+  background-color:red
+}
+.item4{
+  width: 200px;
+  height: 200px;
+  background-color:green
+}
+.flexcontainer{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
