@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+  background-color: #00a8c7;
+  overflow: hidden;
+}
+li{
+  float: left;
+}
+li a{
+  color: #00a8c7;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.Brem 1rem;
+  display: inline-block;
+}
+
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 20;
+}
+.dropdown-content a:hover {background-color: #e9e9e9;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a{
+  color:  #00a8c7;
+  padding: 0.8rem 1rem;
+  display: flex;
+  text-align: left;
+}
+  .dropdown:hover .dropbtn 
+  {
+    background-color: white;
+    color: #00a8c7;
+    width: 170px;
+
+  }
+  .dropbtn
+  {
+    width: 170px;
+  }
+html {
+  font-size: 62.5%;
+}
+body{
+  margin: 20;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  text-align: center;
+  
+
+ }
+ h2{
+  color: antiquewhite;
+  text-align: center;
+ }
+             
+  
+  
+  .navbar{
+    position:fixed;
+    top:0;
+    height: 5%;
+  }
+
+
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 5vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+img{
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+
+}
+.logo {
+  width: 5vw;
+}
+
+li{
+  font-size: large;
+  text-align: center;
+}
+
+p{
+  font-size: large;
+  color: white;
+}
+.city{
+  color: rgb(255, 255, 255);
+}
+body{
+  font-family: "goldman" ;
+    background-image: url("img/HackerMyan.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 400px;
+   background-attachment: fixed;
+}
+footer {
+  font-family: "goldman" 
+  width 100%;
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
+  height: 4%;
+  }
