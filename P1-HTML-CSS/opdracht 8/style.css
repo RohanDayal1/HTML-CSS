@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    size: 62.5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#title {
+    font-family: 'Pattaya', sans-serif;
+}
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    background-color: #131c27;
+    height: 10vh;
+
+    color: white;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 50%;
+    padding-left: 45%;
+    margin-right: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav li { 
+    display: flex;
+    font-size: 25px;
+}
+#title {
+    display: flex;
+    font-size: 30px;
+    width: auto;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.main_1 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/img/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+}
+.main_1 h2 {
+    display: flex;
+    font-size: 62px;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+.main_1 p {
+    display: flex;
+    font-size: 40px;
+}
+#main_1_p2 {
+    padding-bottom: 3.5rem;
+}
+#book_btn {
+    color: white;
+    display: flex;
+    background-color: #4c6e97;
+    width: 18rem;
+    height: 5rem;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+}
+
+.main_2 {
+    display: flex;
+    height: 100vh;
+    max-width: 100%;
+
+
+    color: white;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url(./img/img/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+}
+.main_2 h2 {
+    font-size: 62px;
+    border-bottom: 5px solid white;
+    margin-bottom: 5%;
+}
+.main_2 p {
+    font-size: 40px;
+}
+
+.main_3 {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+.main_3_header {
+    display: flex;
+    flex-direction: column;
+    background-color: #131c27;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.main_3_header h2 {
+    font-size: 62.5px;
+}
+.main_3_header p {
+    font-size: 30px;
+}
+.main_3_tabs {
+    display: flex;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    height: 53%;
+    justify-content: center;
+}
+.main_travel {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2.5px 5px grey;
+}
+.main_travel_container {
+    display: flex;
+    background-color: #131c27;
+    height: 10vh;
+    width: 100%;
+}
+.main_travel h3 {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 25px;
+    margin-bottom: 20%;
+}
+.main_travel p {
+    display: flex;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+#img_route {  
+    align-self: center;
+    height: 7vh;
+    width: 100%;
+}
+.main_hotel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    box-shadow: 0px 2.5px 5px grey;
+}
+.main_hotel_container {
+    display: flex;
+    background-color: #131c27;
+    height: 10vh;
+    width: 100%;
+}
+.main_hotel h3 {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 25px;
+    margin-bottom: 20%;
+}
+.main_hotel p {
+    display: flex;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+#img_bed {
+    align-self: center;
+    height: 7vh;
+    width: 100%;
+}
+.main_fly {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2.5px 5px grey; 
+}
+.main_fly_container {
+    display: flex;
+    background-color: #131c27;
+    height: 10vh;
+    width: 100%;
+}
+.main_fly h3 {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 25px;
+    margin-bottom: 20%;
+}
+.main_fly p{
+    display: flex;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+#img_fly {
+    align-self: center;
+    height: 7vh;
+    width: 100%;
+}
+
+.main_contact {
+    display: flex;
+    height: 100vh;
+    max-width: 100%;
+
+
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+    text-align: center;
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)), url(./img/img/contact-mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+}
+.main_contact_container {
+    background-color: rgba(19, 28, 39, 0.5);
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: #131c27;
+    height: 8vh;
+    width: 100vw;
+    max-width: 100%;
+    color: white;
+}
